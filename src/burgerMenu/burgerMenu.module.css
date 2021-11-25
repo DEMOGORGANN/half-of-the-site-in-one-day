@@ -1,0 +1,236 @@
+.WrapBurger {
+  background-color: #1e1f25;
+  max-width: 180px;
+  padding: 30px 0 100vh 30px;
+  width: 100%;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.WrapBurger .navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+}
+
+.WrapBurger .navBar .HeadLogo {
+  width: 40px;
+}
+
+.WrapBurger .navBar .closeWind {
+  height: 11px;
+  width: 7px;
+  padding: 14px 16px;
+  background-color: #191b21;
+  border-radius: 12px;
+  margin-top: 50px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.WrapBurger .navBar .wrapLinkBlock {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.WrapBurger .navBar .wrapLinkBlock a {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: 1s;
+  transition: 1s;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 120%;
+  color: #767ea2;
+  margin-left: 15px;
+}
+
+.WrapBurger .footBlockMen {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 5vh;
+  opacity: 1;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.WrapBurger .footBlockMen .footImgA {
+  width: 122px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.WrapBurger .footBlockMen .wrapSelectLang {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 78px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 31px 10px 24px;
+  background-color: #191b21;
+  border-radius: 50px;
+}
+
+.WrapBurger .footBlockMen .wrapSelectLang img:first-child {
+  width: 28px;
+}
+
+.WrapBurger .footBlockMen .wrapSelectLang img:last-child {
+  width: 9.5px;
+}
+
+.WrapBurger .footBlockMen .wrapSelectLang span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.WrapBurger_notActive {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  background-color: #1e1f25;
+  max-width: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px 0 100vh 30px;
+  width: 100%;
+}
+
+.WrapBurger_notActive .navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+}
+
+.WrapBurger_notActive .navBar .HeadLogo {
+  width: 40px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.WrapBurger_notActive .navBar .closeWind {
+  height: 11px;
+  width: 7px;
+  padding: 14px 16px;
+  background-color: #191b21;
+  border-radius: 12px;
+  margin-top: 50px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.WrapBurger_notActive .navBar .wrapLinkBlock {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.WrapBurger_notActive .navBar .wrapLinkBlock a {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 120%;
+  color: #767ea2;
+  margin-left: 15px;
+}
+
+.WrapBurger_notActive .footBlockMen {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 5vh;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.WrapBurger_notActive .footBlockMen .footImgA {
+  width: 122px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.WrapBurger_notActive .footBlockMen .wrapSelectLang {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 78px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 31px 10px 24px;
+  background-color: #191b21;
+  border-radius: 50px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.WrapBurger_notActive .footBlockMen .wrapSelectLang img:first-child {
+  width: 28px;
+}
+
+.WrapBurger_notActive .footBlockMen .wrapSelectLang img:last-child {
+  width: 9.5px;
+}
+
+.WrapBurger_notActive .footBlockMen .wrapSelectLang span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+/*# sourceMappingURL=burgerMenu.module.css.map */
