@@ -1,0 +1,41 @@
+.wrapFAQElem {
+    margin-top: 44px;
+    .nameRules {
+        display: flex;
+        align-items: center;
+        .accordion {
+            cursor: pointer;
+            width: 100%;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 120%;
+            color: #ffffff;
+            font-weight: 500;
+        }
+    }
+
+    .elem {
+        transition: all 0.2s linear;
+    }
+    .elem.transform {
+        transform: rotate(180deg);
+    }
+
+    hr {
+        height: 1px;
+        border: 0;
+        background-color: #34384c;
+    }
+
+    p {
+        margin: 0;
+        font-size: 16px;
+        line-height: 150%;
+        color: #ffffff;
+        font-weight: 00;
+    }
+
+    .panel {
+        display: none;
+    }
+}

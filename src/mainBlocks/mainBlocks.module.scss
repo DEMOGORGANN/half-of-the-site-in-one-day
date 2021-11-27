@@ -1,0 +1,21 @@
+.wrapMainBlock {
+    padding: 30px 36px 0 40px;
+    background-color: #0b0c0e;
+    height: calc(100% - 116px);
+    .firstTwoBlock {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+@media screen and(max-width:768px) {
+    .wrapMainBlock {
+        padding: 30px 15px;
+    }
+}
+
+@media screen and(max-width:1200px) {
+    .wrapMainBlock {
+        height: calc(100% - 86px);
+    }
+}

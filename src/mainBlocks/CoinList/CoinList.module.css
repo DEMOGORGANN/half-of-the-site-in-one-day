@@ -1,0 +1,249 @@
+.Tat {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Tat .wrapTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Tat .wrapTitle h1 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 120%;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.Tat .wrapTitle a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  color: #5d6588;
+  text-decoration: none;
+}
+
+.Tat .wrapCoinList {
+  margin-top: 20px;
+}
+
+.Tat .wrapCoinList .overFlowFor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Tat .wrapCoinList .overFlowFor .wrapCoin {
+  max-width: 1700px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-x: auto;
+  background-color: #1e1f25;
+  border-radius: 12px;
+  padding: 18px 30px 20px 24px;
+}
+
+.Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList {
+  padding-bottom: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #34384c;
+}
+
+.Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList span {
+  width: 100px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList span:last-child {
+  width: inherit;
+}
+
+.Tat .wrapCoinList .overFlowFor .wrapCoin .Element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #34384c;
+}
+
+.Tat .wrapCoinList .overFlowFor .wrapCoin .Element span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.Tat .wrapCoinList .overFlowFor .wrapCoin .Element span img {
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.Tat .wrapCoinList .overFlowFor .wrapCoin .Element span:nth-child(2) {
+  color: #addc7b;
+}
+
+.Tat .wrapCoinList .overFlowFor .wrapCoin .Element span:last-child {
+  width: inherit;
+  color: white;
+  padding: 3px 14px;
+  background-color: #addc7b;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.Tat .wrapCoinList .overFlowFor .wrapCoin .NavPageCoin {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 250px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Tat .wrapCoinList .overFlowFor .wrapCoin .NavPageCoin .kovVoPage {
+  cursor: pointer;
+}
+
+.Tat .wrapCoinList .overFlowFor .wrapCoin .NavPageCoin .kovVoPage span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.48);
+  margin-right: 15px;
+}
+
+.Tat .wrapCoinList .overFlowFor .wrapCoin .NavPageCoin span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.48);
+}
+
+.Tat .wrapCoinList .overFlowFor .wrapCoin .NavPageCoin .changePage img {
+  cursor: pointer;
+  padding: 4px;
+}
+
+.Tat .wrapCoinList .overFlowFor .wrapCoin .NavPageCoin .changePage img:first-child {
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .Tat .wrapCoinList .overFlowFor .wrapCoin {
+    padding: 18px 14px 60px 14px;
+  }
+  .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span {
+    font-size: 12px;
+  }
+  .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span img {
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Tat .wrapCoinList {
+    overflow-x: auto;
+  }
+  .Tat .wrapCoinList .overFlowFor {
+    min-width: 1140px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #1e1f25;
+    border-radius: 12px;
+  }
+  .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList {
+    min-width: 190px;
+  }
+  .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList span:first-child {
+    position: absolute;
+    background-color: #1e1f25;
+    padding-left: 20px;
+    left: 2.3vh;
+  }
+  .Tat .wrapCoinList .overFlowFor .wrapCoin .CoinList span:nth-child(2) {
+    margin-left: 35vw;
+  }
+  .Tat .wrapCoinList .overFlowFor .wrapCoin .Element {
+    min-width: 190px;
+  }
+  .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span:first-child {
+    position: absolute;
+    background-color: #1e1f25;
+    left: 2.3vh;
+    padding-left: 20px;
+  }
+  .Tat .wrapCoinList .overFlowFor .wrapCoin .Element span:nth-child(2) {
+    margin-left: 32vw;
+  }
+  .Tat .wrapCoinList .overFlowFor .wrapCoin .NavPageCoin {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .Tat .wrapCoinList .overFlowFor .wrapCoin .NavPageCoin .kovVoPage {
+    margin-right: 20px;
+  }
+}
+/*# sourceMappingURL=CoinList.module.css.map */

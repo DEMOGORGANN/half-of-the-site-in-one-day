@@ -1,0 +1,329 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    animation-name: appear;
+    animation-duration: 300ms;
+    .modalDialog {
+        width: 100%;
+        border-radius: 15px 0 0 15px ;
+        max-width: 422px;
+        background: #1e1f25;
+        position: relative;
+        margin: 0 20px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: slide-in;
+        animation-duration: 0.5s;
+        padding: 20px 26px;
+        max-height: 700px;
+        overflow-y: auto;
+        .wrapTitleModdal {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            span {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 120%;
+                color: #ffffff;
+            }
+            img{
+                cursor: pointer;
+            }
+        }
+        hr {
+            margin-top: 16px;
+            margin-bottom: 20px;
+            width: 100%;
+            height: 1px;
+            background-color: #34384c;
+            border: none;
+        }
+        .wrapfirsEl {
+            background-color: #191b21;
+            border-radius: 12px;
+            .elemOne {
+                padding: 10px 17px;
+                display: flex;
+                // align-items: center;
+                justify-content: space-between;
+                .Obmen1 {
+                    span {
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: rgba(255, 255, 255, 0.65);
+                    }
+                    .wrapInfoVal {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 14px;
+                        cursor: pointer;
+                        span {
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 24px;
+                            color: #ffffff;
+                            margin-left: 12px;
+                            margin-right: 13px;
+                        }
+                        img:first-child {
+                            border: 2px solid #2d2f36;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+                .Max {
+                    align-self: center;
+                    span {
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: rgba(0, 214, 50, 0.8);
+                        padding: 8px 12px;
+                        border: 1px solid rgba(0, 214, 50, 0.1);
+                        border-radius: 11px;
+                    }
+                }
+                .Balance {
+                    text-align: right;
+                    span {
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 24px;
+                        color: rgba(255, 255, 255, 0.65);
+                    }
+                    h3 {
+                        margin: 19px 0 4px;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+        .TwoEl {
+            margin-top: 10px;
+            background-color: #191b21;
+            border-radius: 12px;
+            padding: 10px 16px;
+            span {
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 24px;
+                color: rgba(255, 255, 255, 0.65);
+            }
+            .valuts {
+                margin-top: 15px;
+                margin-bottom: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                span {
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #ffffff;
+                }
+                .valutsAndImg {
+                    display: flex;
+                    align-items: center;
+                    span {
+                        margin-right: 5px;
+                        margin-left: 5px;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #ffffff;
+                    }
+                }
+            }
+            .InfVal {
+                display: flex;
+                justify-content: space-between;
+                span {
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 24px;
+                    color: rgba(255, 255, 255, 0.65);
+                }
+            }
+            .Prices {
+                span {
+                    display: flex;
+                    justify-content: right;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #ffffff;
+                }
+            }
+            .OneCript {
+                margin-top: 15px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .imgAndval {
+                    display: flex;
+                    align-items: center;
+                    img {
+                        border: 2px solid #21232a;
+                        border-radius: 50%;
+                        margin-right: 5px;
+                        width: 24px;
+                    }
+                    span {
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: rgba(255, 255, 255, 0.65);
+                    }
+                }
+                span {
+                    font-size: 12px;
+                    line-height: 150%;
+                    text-align: right;
+
+                    color: #ffffff;
+                }
+            }
+            .OneEl {
+                margin-top: 15px;
+                border-radius: 12px 12px 0 0;
+                border: 1px solid #34384c;
+                box-sizing: border-box;
+                padding: 10px 17px 14px;
+                .SettTrans {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    h2 {
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: rgba(255, 255, 255, 0.65);
+                        margin: 0;
+                    }
+                    img {
+                        cursor: pointer;
+                    }
+                }
+                .Block {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    h2 {
+                        margin: 0;
+                        font-size: 12px;
+                        line-height: 24px;
+                        color: #ffffff;
+                        font-weight: 400;
+                    }
+                    span {
+                        font-size: 12px;
+                        line-height: 24px;
+                        color: #ffffff;
+                    }
+                }
+            }
+            .TwoElem {
+                padding-bottom: 15px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-radius: 0 0 12px 12px;
+                border: 1px solid #34384c;
+                box-sizing: border-box;
+                padding: 14px 16px;
+                h2 {
+                    margin: 0;
+                    font-size: 12px;
+                    line-height: 24px;
+                    color: #ffffff;
+                    font-weight: 400;
+                }
+                span {
+                    font-size: 12px;
+                    line-height: 24px;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    .modalDialog::-webkit-scrollbar {
+        width: 2px;
+        background-color: #34384c;
+        border-radius: 50px;
+    }
+    .modalDialog::-webkit-scrollbar-thumb {
+        background-color: #00d632;
+        border-radius: 50px;
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes slide-in {
+    from {
+        transform: translateY(-150px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@media screen and(max-width:768px) {
+    .modal {
+        .modalDialog {
+            .wrapfirsEl {
+                .elemOne {
+                    .Obmen1 {
+                        span {
+                            font-size: 12px;
+                        }
+                        .wrapInfoVal {
+                            span {
+                                margin-left: 4px;
+                                margin-right: 4px;
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                    .Max {
+                        span {
+                            font-size: 12px;
+                        }
+                    }
+                    .Balance {
+                        span {
+                            font-size: 11px;
+                        }
+                        h3 {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
